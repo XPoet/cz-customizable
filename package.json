@@ -1,28 +1,28 @@
 {
-  "version": "0.0.0-development",
-  "name": "cz-customizable",
+  "version": "0.0.1",
+  "name": "cz-custom",
   "description": "Commitizen customizable adapter following the conventional-changelog format.",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
-    "cz-customizable": "./standalone.js",
-    "cz-cust": "./standalone.js"
+    "cz-customizable": "standalone.js",
+    "cz-cust": "standalone.js"
   },
   "scripts": {
-    "lint": "node_modules/eslint/bin/eslint.js *.js __tests__/**.js",
+    "lint": "eslint --fix *.js __tests__/**.js",
     "test": "jest",
     "test:watch": "jest -- --watch",
-    "semantic-release": "semantic-release",
     "prettier": "prettier --single-quote --trailing-comma es5 --write '*.js' 'spec/**/*.js'",
     "commit": "npm run lint && npm run test && ./standalone.js"
   },
-  "homepage": "https://github.com/leoforfree/cz-customizable",
+  "homepage": "https://github.com/XPoet/cz-customizable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leoforfree/cz-customizable.git"
+    "url": "git+https://github.com/XPoet/cz-customizable.git"
   },
-  "author": "Leonardo Correa <leonardoanalista@gmail.com>",
+  "author": "XPoet <i@xpoet.cn>",
   "contributors": [
+    "Leonardo Correa <leonardoanalista@gmail.com>",
     "Aleksey Guryanov <gurianov@gmail.com>"
   ],
   "license": "MIT",
@@ -55,9 +55,15 @@
     },
     "cz-customizable": {
       "config": "cz-config-EXAMPLE.js"
-    },
-    "ghooks": {
-      "pre-commit": "npm run lint && npm run test"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/XPoet/cz-customizable/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "cz-custom"
+  ]
 }

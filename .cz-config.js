@@ -59,9 +59,9 @@ module.exports = {
   },
 
   allowCustomScopes: true,
-  customScopesName: 'customScopes',
+  customScopesName: 'custom scopes',
   allowEmptyScopes: true,
-  emptyScopesName: 'emptyScopes',
+  emptyScopesName: 'empty scopes',
 
   allowBreakingChanges: ['feat', 'fix'],
   // skip any questions you want

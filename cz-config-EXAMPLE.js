@@ -57,6 +57,9 @@ module.exports = {
   },
 
   allowCustomScopes: true,
+  customScopesName: 'custom scopes',
+  allowEmptyScopes: true,
+  emptyScopesName: 'empty scopes',
   allowBreakingChanges: ['feat', 'fix'],
   // skip any questions you want
   // skipQuestions: ['scope', 'body'],

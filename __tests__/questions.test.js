@@ -21,6 +21,9 @@ describe('cz-customizable', () => {
         fix: [{ name: 'fixOverride' }],
       },
       allowCustomScopes: true,
+      customScopesName: 'custom scopes',
+      allowEmptyScopes: true,
+      emptyScopesName: 'empty scopes',
       allowBreakingChanges: ['feat'],
       allowTicketNumber: true,
       isTicketNumberRequired: true,
@@ -50,7 +53,7 @@ describe('cz-customizable', () => {
     // question 3 - SCOPE CUSTOM
     expect(getQuestion(3).name).toEqual('scope');
     expect(getQuestion(3).when({ scope: 'custom' })).toEqual(true);
-    expect(getQuestion(3).when({ scope: false })).toEqual(false);
+    expect(getQuestion(3).when({ scope: 'empty' })).toEqual(false);
     expect(getQuestion(3).when({ scope: 'scope' })).toEqual(false);
 
     // question 4 - TICKET_NUMBER
