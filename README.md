@@ -198,7 +198,3 @@ my items are:
 ### Conduct of Code:
 * Be polite, respectful and understanding that we are all here after working hours spending time to build something useful to all.
 * We promise to extend courtesy and respect to everyone involved in this project regardless of gender, gender identity, sexual orientation, disability, age, race, ethnicity, religion, or level of experience
-
-
-
-Leonardo Correa
