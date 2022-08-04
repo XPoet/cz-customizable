@@ -1,4 +1,4 @@
-declare module "cz-customizable" {
+declare module "cz-custom" {
   export interface Option {
     name: string;
     value?: string;

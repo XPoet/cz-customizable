@@ -12,6 +12,6 @@ it('logs message when config is not found', () => {
   const config = readConfigFile();
   expect(config).toEqual(null);
   expect(log.error).toHaveBeenCalledWith(
-    'Unable to find a configuration file. Please refer to documentation to learn how to set up: https://github.com/leonardoanalista/cz-customizable#steps "',
+    'Unable to find a configuration file. Please refer to documentation to learn how to set up: https://github.com/XPoet/cz-customizable#configuration "',
   );
 });

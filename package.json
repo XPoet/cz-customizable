@@ -5,8 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
-    "cz-customizable": "standalone.js",
-    "cz-cust": "standalone.js"
+    "cz-custom": "standalone.js"
   },
   "scripts": {
     "lint": "eslint --fix *.js __tests__/**.js",
@@ -44,16 +43,14 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "ghooks": "^2.0.4",
     "jest": "^28.1.2",
-    "prettier": "^2.7.1",
-    "semantic-release": "^19.0.3"
+    "prettier": "^2.7.1"
   },
   "config": {
     "commitizen": {
       "path": "./index.js"
     },
-    "cz-customizable": {
+    "cz-custom": {
       "config": "cz-config-EXAMPLE.js"
     }
   },

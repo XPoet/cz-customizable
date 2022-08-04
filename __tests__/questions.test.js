@@ -1,6 +1,6 @@
 const questions = require('../lib/questions');
 
-describe('cz-customizable', () => {
+describe('cz-custom', () => {
   let config;
 
   beforeEach(() => {
